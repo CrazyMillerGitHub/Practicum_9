@@ -97,7 +97,7 @@
                                             </textField>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pu3-jd-Agj">
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pu3-jd-Agj">
                                         <rect key="frame" x="0.0" y="127.99999999999999" width="293" height="34.333333333333329"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Посчитать"/>
@@ -126,6 +126,7 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="62P-5G-kB0"/>
                     <navigationItem key="navigationItem" id="AWy-Pq-FWW"/>
                     <connections>
+                        <outlet property="calculateButton" destination="Pu3-jd-Agj" id="8cQ-4E-E3I"/>
                         <outlet property="firstNumberTextField" destination="MlH-pW-AfN" id="QZo-7l-ZZh"/>
                         <outlet property="secondNumberTextField" destination="PTh-tK-kKF" id="ZLM-um-plP"/>
                     </connections>

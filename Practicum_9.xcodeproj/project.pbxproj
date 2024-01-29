@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74E724342B67FBF400B68F02 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E724332B67FBF400B68F02 /* TextField+Extension.swift */; };
 		9B3FEB762B178D32008EC7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FEB752B178D32008EC7F4 /* AppDelegate.swift */; };
 		9B3FEB782B178D32008EC7F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FEB772B178D32008EC7F4 /* SceneDelegate.swift */; };
 		9B3FEB7A2B178D32008EC7F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FEB792B178D32008EC7F4 /* MainViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74E724332B67FBF400B68F02 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		9B3FEB722B178D32008EC7F4 /* Practicum_9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicum_9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3FEB752B178D32008EC7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B3FEB772B178D32008EC7F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				9B3FEB7E2B178D33008EC7F4 /* Assets.xcassets */,
 				9B3FEB802B178D33008EC7F4 /* LaunchScreen.storyboard */,
 				9B3FEB832B178D33008EC7F4 /* Info.plist */,
+				74E724332B67FBF400B68F02 /* TextField+Extension.swift */,
 			);
 			path = Practicum_9;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E724342B67FBF400B68F02 /* TextField+Extension.swift in Sources */,
 				9B3FEB7A2B178D32008EC7F4 /* MainViewController.swift in Sources */,
 				9B3FEB762B178D32008EC7F4 /* AppDelegate.swift in Sources */,
 				9B3FEB782B178D32008EC7F4 /* SceneDelegate.swift in Sources */,
@@ -296,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 437UL6869V;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practicum_9/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -324,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 437UL6869V;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practicum_9/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
